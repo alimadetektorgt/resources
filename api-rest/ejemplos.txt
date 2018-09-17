@@ -1,0 +1,21 @@
+Crear Token:
+http://localhost/ApiRest/index?petition=adminToken&token-id=0
+
+Editar Token:
+http://localhost/ApiRest/index?petition=adminToken&token-id=1&field=status&value=false
+
+
+Obtener todos los Token:
+http://localhost/ApiRest/index?petition=getToken&token-id=0
+
+
+Obtener Token:
+http://localhost/ApiRest/index?petition=getToken&token-id=1
+
+
+Eliminar Token:
+http://localhost/ApiRest/index?petition=deleteToken&token-id=1
+
+
+Limpiar todos:
+http://localhost/ApiRest/index?petition=deleteToken&token-id=0

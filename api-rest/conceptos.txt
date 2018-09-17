@@ -1,0 +1,6 @@
+REST:
+Significa "REPRESENTACION DE TRANSFERENCIA DE ESTADO". Es un concepto o arquitectura para administrar la información a través de Internet.
+
+API:
+Significa "Interfaz de programación de aplicaciones". Es un conjunto de reglas que permite que una aplicación de software se comunique con otra.
+

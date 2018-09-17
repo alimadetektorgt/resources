@@ -1,0 +1,27 @@
+/**************************************************************
+CREAR BASE DE DATOS
+**************************************************************/
+CREATE DATABASE api_db
+  WITH OWNER = postgres
+       ENCODING = 'UTF8'
+       TABLESPACE = pg_default
+       LC_COLLATE = 'C'
+       LC_CTYPE = 'C'
+       CONNECTION LIMIT = -1;
+
+
+
+/**************************************************************
+CREAR TABLA: api_token
+**************************************************************/
+CREATE TABLE public.api_token
+(
+  id integer NOT NULL DEFAULT nextval('api_token_id_seq'::regclass),
+  token text,
+  status boolean
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.api_token
+  OWNER TO postgres;
